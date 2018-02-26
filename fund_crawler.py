@@ -49,5 +49,10 @@ def save_fund_net_value(fund_code, path):
     df.to_excel(path)
 
 
-save_fund_net_value('000311', 'E:\\FundCrawler\\000311.xlsx')
-print('completed')
+def main():
+    save_fund_net_value('000311', 'E:\\FundCrawler\\000311.xlsx')
+    print('completed')
+
+
+if __name__ == "__main__":
+    main()
